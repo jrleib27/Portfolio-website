@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <title>Jason Leib's Portfolio Website</title>
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" 
+        crossorigin="anonymous" />
+    </head>
+    <body>
+            <header>
+                <div class="logo">
+                    <img src="img/avatar.jpg" alt="">
+                </div>
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#competencies" class="nav__link">My Core Competencies</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!-- Introduction -->
+            <section class="intro" id="home">
+                <h1 class="section__title section__title--intro">
+                    Hello! My name is <strong>Jason Leib</strong>
+                </h1>
+                <p class="section__subtitle section__subtitle--intro">Data Analyst</p>
+                <img src="img/avatar.jpg" alt="a professional photo of Jason Leib">
+            </section>
+
+            <!-- My competencies -->
+            <section class="my-competencies" id="competencies">
+                <h2 class="section__title section__title--competencies">What I do</h2>
+                <div class="competencies">
+                    
+                    <div class="competency">
+                        <h3>Data Analysis</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    
+                    <div class="competency">
+                        <h3>eCommerce</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    
+                    <div class="competency">
+                        <h3>Webscraping</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+                
+                <a href="#work" class="btn">My Work</a>
+            </section>
+
+
+            <!-- About me -->
+            <section class="about-me" id="about">
+                <h2 class="section__title section__title--about">Who I am</h2>
+                <p class="section__subtitle section__subtitle--about"></p>
+                
+                <div class="about-me__body">
+                    <p></p>
+                    <p></p>
+                </div>
+                
+                <img src="img/avatar.jpg" alt="Jason and Vania">
+            </section>
+
+            <!-- My Work -->
+            <section class="my-work" id="work">
+                <h2 class="section__title">My Work</h2>
+                <p class="section__subtitle"></p>
+                
+                <div class="portfolio">
+                    <!-- Portfolio 1 -->
+                    <!-- add link after # -->
+                    <a href="https://www.linkedin.com/pulse/web-scraping-ufc-data-analysis-jason-r-leib/?trackingId=2ZSw2NuMQuKaWDvNQpH7WA%3D%3D" class="portfolio__item">
+                        <!-- need to correct src below with image for portfolio items -->
+                        <img src="img/portfolio 1.png" alt="" class="portfolio__img">
+                    </a>
+
+                    <!-- Portfolio 2 -->
+                    <!-- add link after # -->
+                    <a href="https://www.linkedin.com/pulse/database-design-visual-representation-jason-r-leib/" class="portfolio__item">
+                        <!-- need to correct src below with image for portfolio items -->
+                        <img src="img/Database diagram.png" alt="" class="portfolio__img">
+                    </a>
+
+                    <!-- Add additional portfolio items below -->
+                    </div>
+            </section>
+
+            <!-- Footer -->
+            <footer>
+                <a href="mailto:jasonrleib95@gmail.com" class="footer__link">jasonrleib95@gmail.com</a>
+                <ul class="social-list">
+                    <li class="social-list__item"><a class="social-list__link" 
+                    href="https://www.linkedin.com/in/jasonrleib/">linkedin profile</a></li>
+                    <li class="social-list__item"><a class="social-list__link" 
+                    href="https://github.com/jrleib27">Github</a></li>
+                </ul>
+            </footer>
+
+        </body>
+</html>
