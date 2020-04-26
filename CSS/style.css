@@ -283,8 +283,10 @@ nav { display: none; }
 }
 
 .portfolio__item {
-    background: var(--clr-accent);
+    background: var(--clr-dark);
     overflow: hidden;
+    color: var(--clr-accent);
+    font-weight: var(--fw-bold);
 }
 
 .portfolio__img {
