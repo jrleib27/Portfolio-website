@@ -1,0 +1,4 @@
+no www
+http://jrlportfolio.io.s3-website.us-east-2.amazonaws.com
+www
+http://www.jrlportfolio.io.s3-website.us-east-2.amazonaws.com
