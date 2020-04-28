@@ -17,6 +17,7 @@
     --clr-dark: #303030;
     /*the below is obviously the accent colors that fill in the bars*/
     --clr-accent: #DC143C;
+    --clr-white: #FFFFFF;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -283,7 +284,7 @@ nav { display: none; }
 }
 
 .portfolio__item {
-    background: var(--clr-dark);
+    background: var(--clr-white);
     overflow: hidden;
     color: var(--clr-accent);
     font-weight: var(--fw-bold);
